@@ -39,7 +39,7 @@ function renderShell() {
   document.querySelector("#siteHeader").innerHTML = `
     <nav class="nav-wrap">
       <a class="brand" href="index.html" aria-label="Kembali ke Home">
-        <img src="assets/icons/karna-logo.png" alt="">
+        <img src="karna-logo.png" alt="">
         <span>KARNA SHOWROOM</span>
       </a>
       <div class="nav-menu" id="navMenu">
@@ -199,7 +199,7 @@ function renderTransaction() {
           <p>Nikmati Kemudahan dan Berbagai Penawaran Spesial dari KARNA</p>
         </div>
         <div class="transaction-layout">
-          <div class="mechanic-art reveal slide-right"><img src="assets/images/mekanik.png" alt="Mekanik KARNA"></div>
+          <div class="mechanic-art reveal slide-right"><img src="mekanik.png" alt="Mekanik KARNA"></div>
           <form class="form-grid reveal slide-left" id="transactionForm" novalidate>
             ${field("nama", "Nama", "text")}
             ${field("email", "Alamat Email", "email")}
